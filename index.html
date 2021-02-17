@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="./styles/navbar.css" />
     <link rel="stylesheet" href="./styles/section1.css" />
     <link rel="stylesheet" href="./styles/section2.css" />
+    <link rel="stylesheet" href="./styles/section3.css" />
     <title>Revera</title>
   </head>
 
@@ -20,7 +21,7 @@
     <nav>
         <h2>REVERA</h2>
             <ul>
-                <li class="nav_list_red">Home</li>
+                <li class="nav_list--red">Home</li>
                 <li>About</li>
                 <li>Sample page</li>
                 <li>Portfolio</li>
@@ -35,13 +36,14 @@
        
             <h1> Lorem ipsum dolor sit amet, consectetur <br> adipiscing elit. Aenean tempor. </h1>
 
-            <div class="chevron-left"><i class="fas fa-chevron-left fa-5x"></i></div>
+           <!-- <i class="fas fa-chevron-left fa-5x"></i>
+            <i class="fas fa-chevron-right fa-5x"></i> --> 
                  <article>
                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean porta turpis urna, a luctus justo malesuada nec. Nullam rhoncus volutpat urna, ac gravida urna lobortis imperdiet. Nam ante nunc, suscipit vitae tempus eu, iaculis sed mauris. Aenean egestas tincidunt sapien eu fringilla. Phasellus tristique gravida convallis. Mauris iaculis arcu nec sapien commodo, tincidunt hendrerit nulla gravida.
                  </article>
 
                  <button type="button">READ MORE</button>
-                 <i class="fas fa-chevron-right fa-5x"></i>   
+                  
 
    </section>
 
@@ -69,59 +71,95 @@
 
     </section>    
 
-   <section>
+   <section id="section3">
+
        <h2>LATEST PROJECTS</h2>
        <h3>FEW OF THE LATEST PORTFOLIO ITEMS</h3>
-       <div>
-            <div>
-                <img src="../lab-bootstrap-cloning-revera/starter-code/img/project-1.jpg" alt="">
-                <p>Lorem ipsum dolor sit amet, consectetur elit</p>
+       <hr>
+
+       <div id="section3_content_container">
+            <div class="section3_content_container_projects">
+                <img class="section3_content_container_projects_image--80" src="../lab-bootstrap-cloning-revera/starter-code/img/project-1.jpg" alt="">
+                <p>Lorem ipsum dolor sit amet, consectetur <br> elit</p>
+            </div>
+            
+            <div class="section3_content_container_projects">
+                <img class="section3_content_container_projects_image--80" src="../lab-bootstrap-cloning-revera/starter-code/img/project-2.jpg" alt="">
+                <p> Aliquam sed ipsum ut libero luctus <br> condimentum sed</p>
             </div>
 
-            <div>
-                <img src="../lab-bootstrap-cloning-revera/starter-code/img/project-2.jpg" alt="">
-                <p> Aliquam sed ipsum ut libero luctus condimentum sed</p>
+            <div class="section3_content_container_projects">
+                <img class="section3_content_container_projects_image--80" src="../lab-bootstrap-cloning-revera/starter-code/img/project-3.jpg"alt="">
+                <p>Quisque purus augue, vulputate <br>vitae ligula</p>
             </div>
 
-            <div>
-                <img src="../lab-bootstrap-cloning-revera/starter-code/img/project-3.jpg"alt="">
-                <p>Quisque purus augue, vulputate vitae ligula</p>
-            </div>
-
-            <div>
-                <img src="../lab-bootstrap-cloning-revera/starter-code/img/project-4.jpg" alt="">
-                <p>Aenean porta turpis urna, a luctus justo malesuada nec.</p>
+            <div class="section3_content_container_projects">
+                <img class="section3_content_container_projects_image--80" src="../lab-bootstrap-cloning-revera/starter-code/img/project-4.jpg" alt="">
+                <p>Aenean porta turpis urna, a luctus nec.</p>
             </div>
 
        </div>
 
-       <div>
-            <div>
-                <img src="../lab-bootstrap-cloning-revera/starter-code/img/slider-1.jpg" alt="">
-                <h4></h4>
+       <h2>LATEST ARTICLES</h2>
+       <h3>LATEST POSTS FROM THE BLOG</h3>
+       <hr>
+
+       <div id="section3_content_container_bottom">
+            <div class="section3_content_container_articles">
+                <img class="section3_content_container_articles_image--80"src="../lab-bootstrap-cloning-revera/starter-code/img/slider-1.jpg" alt="">
+                <h4>In hac habitasse platea dictumst. <br> Aliquam at tincidunt ante.</h4>
                 <h4>POSTED ON AUGUST 19, 2013 BY ADMIN</h4>
-                <p>In hac habitasse platea dictumst. Aliquam at tincidunt ante. In sed enim semper, condimentum quam ac, facilisis sem. Pellentesque finibus eros feugiat placerat luctus. Etiam nec lacus elit. Sed pretium, leo a mattis imperdiet, nulla nisi blandit felis, ut porta risus sem vitae mi. Aenean porttitor, quam ac tincidunt ullamcorper, nunc tellus aliquam arcu, a tincidunt mauris lacus eu tellus. Morbi vitae lacus id felis rhoncus maximus non quis mauris.</p>
+                <p>In hac habitasse platea dictumst. Aliquam at.
+                    <br> In sed enim semper, condimentum quam. 
+                    <br> Pellentesque finibus eros feugiat.
+                    <br> Etiam nec lacus elit. Sed pretium, leo a mattis
+                    <br> imperdiet, nulla nisi blandit felis, ut porta 
+                    <br>  risus sem vitae mi. Aenean porttitor, quam ac 
+                    <br>tincidunt ullamcorper, nunc tellus aliquam arcu,
+                    <br> a tincidunt mauris lacus eu tellus. Morbi vitae 
+                    <br>lacus id felis rhoncus maximus non quis mauris.</p>
+            </div>
+             
+            <div class="section3_content_container_articles"></div>
+                <img class="section3_content_container_articles_image--80" src="../lab-bootstrap-cloning-revera/starter-code/img/slider-2.jpg" alt="">
+                <h4>In hac habitasse platea dictumst.<br> Aliquam at tincidunt ante.</h4>
+                <h4>POSTED ON AUGUST 19, 2013 BY ADMIN</h4>
+                <p>Vivamus interdum a lectus in dignissim. 
+                    <br>Cras id mi quis eros suscipit auctor. Sed 
+                    <br>laoreet odio eu velit accumsan, eget porttitor
+                    <br> metus dapibus. Mauris rhoncus felis vitae 
+                    <br>sodales egestas. Sed vehicula risus non vulputate
+                    <br> volutpat. Duis fermentum mollis nibh posuere
+                    <br> vehicula. Sed purus lectus, laoreet at 
+                    <br>rhoncus in, tristique a metus. </p> 
             </div>
 
-            <div>
-                <img src="../lab-bootstrap-cloning-revera/starter-code/img/slider-2.jpg" alt="">
-                <h4></h4>
+            <div class="section3_content_container_articles"></div>
+                <img class="section3_content_container_articles_image--80" src="../lab-bootstrap-cloning-revera/starter-code/img/slider-3.jpg" alt="">
+                <h4>Nullam rhoncus volutpat urna, ac gravida <br> urna lobortis imperdiet.</h4>
                 <h4>POSTED ON AUGUST 19, 2013 BY ADMIN</h4>
-                <p>Vivamus interdum a lectus in dignissim. Cras id mi quis eros suscipit auctor. Sed laoreet odio eu velit accumsan, eget porttitor metus dapibus. Mauris rhoncus felis vitae sodales egestas. Sed vehicula risus non vulputate volutpat. Duis fermentum mollis nibh posuere vehicula. Sed purus lectus, laoreet at rhoncus in, tristique a metus. </p>
+                <p>Suspendisse id lectus justo. Aliquam quis 
+                    <br>ultricies dui, at pellentesque turpis. 
+                    <br>Integer vulputate tellus urna, eget aliquam nulla
+                    <br> feugiat vehicula. Pellentesque ante neque, 
+                    <br>molestie sit amet scelerisque id, eleifend 
+                    <br>tincidunt nunc. Maecenas imperdiet, mauris 
+                    <br>vel venenatis porta, lacus risus viverra velit,
+                    <br> id bibendum risus libero sed lacus. 
+                    <br>Vivamus ac ipsum nisi.</p>
             </div>
 
-            <div>
-                <img src="../lab-bootstrap-cloning-revera/starter-code/img/slider-3.jpg" alt="">
-                <h4>Nullam rhoncus volutpat urna, ac gravida urna lobortis imperdiet. Nam ante nunc, suscipit vitae</h4>
+            <div class="section3_content_container_articles"></div>
+                <img class="section3_content_container_articles_image--80" src="../lab-bootstrap-cloning-revera/starter-code/img/slider-4.jpg" alt="">
+                <h4>Lorem ipsum dolor sit amet, consectetur <br> adipiscing elit.  Aliquam malesuada vestibulum.</h4>
                 <h4>POSTED ON AUGUST 19, 2013 BY ADMIN</h4>
-                <p>Suspendisse id lectus justo. Aliquam quis ultricies dui, at pellentesque turpis. Integer vulputate tellus urna, eget aliquam nulla feugiat vehicula. Pellentesque ante neque, molestie sit amet scelerisque id, eleifend tincidunt nunc. Maecenas imperdiet, mauris vel venenatis porta, lacus risus viverra velit, id bibendum risus libero sed lacus. Vivamus ac ipsum nisi.</p>
-            </div>
-
-            <div>
-                <img src="../lab-bootstrap-cloning-revera/starter-code/img/slider-4.jpg" alt="">
-                <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam malesuada vestibulum lectus, quis auctor risus. Duis vel tristique ligula. Aenean hendrerit est a sapien faucibus,</h4>
-                <h4>POSTED ON AUGUST 19, 2013 BY ADMIN</h4>
-                <p>Quisque non vestibulum quam. Ut feugiat semper vulputate. Suspendisse cursus mauris purus, nec maximus ex imperdiet et. Fusce nec laoreet diam, sit amet gravida urna. Morbi lorem urna, dignissim quis cursus ut, cursus sed nunc. Donec dignissim sem suscipit nunc porttitor, in ullamcorper est dignissim.</p>
+                <p>Quisque non vestibulum quam. Ut feugiat semper 
+                    <br>vulputate. Suspendisse cursus mauris purus,
+                    <br> nec maximus ex imperdiet et. Fusce nec laoreet
+                    <br> diam, sit amet gravida urna. Morbi lorem urna,
+                    <br> dignissim quis cursus ut, cursus sed nunc. 
+                    <br>Donec dignissim sem suscipit nunc porttitor, 
+                    <br>in ullamcorper est dignissim.</p>
             </div>
    
        </div>

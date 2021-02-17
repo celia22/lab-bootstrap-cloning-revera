@@ -23,7 +23,7 @@ nav > h2 {
     
 }
 
-.nav_list_red{
+.nav_list--red{
     color: rgb(227, 108, 108);
     font-weight: 600;
 }
