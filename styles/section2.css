@@ -9,6 +9,7 @@
 .section2_content_container{
     width: 20%;
     text-align: center;
+    
 }
 
 .section2_content_container {
@@ -25,14 +26,19 @@
    font-size: 0.8rem;
 }
 
+.section2_content_container_icon, .section2_content_container_icon_wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
 
-.circle-icon {
-    background:  rgb(244, 95, 87);
+.section2_content_container_icon_wrapper {
+    border-radius: 50%;
+    border: 4px solid white;
     width: 50px;
     height: 50px;
-    border-radius: 50%;
-    text-align: center;
-    line-height: 100px;
-    vertical-align: middle;
-    padding: 30px;
+    
 }
+
+
