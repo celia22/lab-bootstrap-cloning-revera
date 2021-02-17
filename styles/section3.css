@@ -1,5 +1,5 @@
 #section3{
-    margin: 3rem 10rem;
+    margin: 3rem 8rem;
 
 }
 
@@ -14,15 +14,14 @@
     font-size: 0.7rem;
     font-weight: 800;
     color:grey;
-    margin-bottom: 1rem;
-    
+    margin-bottom: 1rem;    
 
 }
 
 #section3_content_container{
     display: flex;
-    justify-content: space-between;
-    margin: 2rem;
+    justify-content: space-around;
+   
 }
 
 .section3_content_container_projects > p{
@@ -31,8 +30,8 @@
 }
 
 .section3_content_container_projects_image--80{
-    width: 80%;
-    margin-left:1rem;
+    width: 93%;
+    margin:1rem auto;
     
 }
 

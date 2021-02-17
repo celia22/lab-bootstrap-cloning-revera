@@ -1,0 +1,43 @@
+#footer_top{
+    border-top: 3px solid red;
+    background-color:#454A49;
+    color: rgb(188, 183, 183);
+    font-size: 0.8rem;
+    display: flex;
+    justify-content: space-around;
+    height:17rem ;
+    padding: 3rem 9rem;
+
+}
+
+.footer_top_information{
+    width:20%;
+   
+}
+
+.footer_top_information > h3{
+    font-size: 1rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+
+}
+
+.footer_top_information  li{
+    padding-bottom: 0.5rem;
+    padding-top: 0.5rem;
+    border-bottom-style: dotted;
+}
+
+#footer_bottom{
+    color:white;
+    height: 4rem;
+    background-color: #333736;
+
+}
+
+#footer_bottom > p{
+    padding-top: 1.5rem;
+    padding-left: 9rem;
+
+   
+}
