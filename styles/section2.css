@@ -1,0 +1,26 @@
+#section2{
+    display: flex;
+    background-color: rgb(244, 95, 87);
+    justify-content: space-around;
+    color:white;
+    padding: 3rem 10rem;
+}
+
+.section2_content_container{
+    width: 20%;
+    text-align: center;
+}
+
+.section2_content_container {
+    width: 25%;
+}
+
+.section2_content_container > h3 {
+    font-size: 1rem;
+    font-weight: 700;
+    margin: 1rem auto;
+}
+
+.section2_content_container > p{
+   font-size: 0.8rem;
+}

@@ -3,22 +3,24 @@
     background-repeat: no-repeat;
     background-size: cover;
     filter: grayscale(100%);
-    height: 30rem;
+    height: 32rem;
     color: white;
     display: flex;
     flex-direction: column;
-    justify-content: center;   
- 
+    justify-content: center;  
+    
 }
 
 #section1 > article {
     font-size: 1rem;
     text-align: center;
-    margin: 1rem 18rem;
+    margin: 0 18rem;
 
 }
 
-.fas fa-chevron-left"{
-    size: 5rem;
 
+.chevron-left{
+    padding:1rem 2rem;
+    width: 2rem;
+    color: rgb(227, 108, 108);
 }
