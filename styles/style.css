@@ -1,0 +1,13 @@
+body{
+    background-color: white;
+    font-family: "Open sans";
+    font-size: 10px;    
+}
+
+#section1 > h1{
+    color: white;
+}
+
+#section1 > button{
+    color: white;
+}

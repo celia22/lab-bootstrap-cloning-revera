@@ -1,0 +1,29 @@
+nav{
+    display: flex;
+    justify-content: space-around;
+    margin: 1rem 7rem 1rem 10rem;
+
+}
+
+nav > ul {
+    display: flex;
+    flex-direction: row;
+}
+
+nav li {
+    margin-left: 2rem;
+    font-size: 0.8rem;
+    color: grey;
+
+}
+
+nav > h2 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    
+}
+
+.nav_list_red{
+    color: rgb(227, 108, 108);
+    font-weight: 600;
+}
