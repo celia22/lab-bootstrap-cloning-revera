@@ -1,6 +1,6 @@
 #section3{
     margin: 3rem 8rem;
-
+ 
 }
 
 #section3 > h2{
@@ -14,13 +14,14 @@
     font-size: 0.7rem;
     font-weight: 800;
     color:grey;
-    margin-bottom: 1rem;    
+    margin: 1rem auto;    
 
 }
 
-#section3_content_container{
+.section3_content_container{
     display: flex;
     justify-content: space-around;
+    margin-bottom: 2rem;
    
 }
 
@@ -30,15 +31,38 @@
 }
 
 .section3_content_container_projects_image--80{
-    width: 93%;
-    margin:1rem auto;
-    
+    width: 94%;
+    margin:1rem; 
 }
 
-
 .section3_content_container_articles_image--80{
-    width: 15%;
-    
+    width: 94%;
+    height: auto;
+    margin:1rem;
+}
+
+.section3_content_container_articles > h4{
+    font-weight: 700;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+}
+
+.section3_content_container_articles > h5{
+    font-weight: 700;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+    color:grey;
+}
+
+.section3_content_container_articles > p{
+    margin-left: 1rem;
+    font-size: 0.7rem;
+    text-align: justify;
+    color:grey;
+}
+
+.section3_content_container_articles--red{
+    color:red;
 }
 
 
